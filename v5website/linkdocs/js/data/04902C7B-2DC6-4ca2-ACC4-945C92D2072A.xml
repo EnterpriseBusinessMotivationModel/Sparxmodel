@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.5.1:1", "", "Business Model for Government", "EARoot/EA5/EA1/EA287.htm", "175.png", "68", "0", "", "Logical diagram0","{108DBAE4-3A78-4b0c-8560-FB355B53EEC1}");
+tocTab[tocTab.length] = new Array("0.5.1:2", "", "Beneficiary Type", "EARoot/EA5/EA1/EA290.htm", "5.png", "E310", "0", "", "Class0","{B0EA81E4-3D62-441c-9546-95A32A29B675}");
+tocTab[tocTab.length] = new Array("0.5.1:3", "", "Benefit / Value Proposition", "EARoot/EA5/EA1/EA291.htm", "5.png", "E308", "0", "", "Class0","{19036DE7-E19B-4bb2-A5BC-5C69A81C891E}");
+tocTab[tocTab.length] = new Array("0.5.1:4", "", "Citizen", "EARoot/EA5/EA1/EA292.htm", "5.png", "E312", "0", "", "Class0","{3BC7ACF2-1EAD-42b3-8ECA-4BDF6B9A67F8}");
+tocTab[tocTab.length] = new Array("0.5.1:5", "", "Citizen Needs", "EARoot/EA5/EA1/EA293.htm", "5.png", "E314", "0", "", "Class0","{E1AAFBC9-57BD-450a-8FCA-B543153C931B}");
+tocTab[tocTab.length] = new Array("0.5.1:6", "", "Cost model", "EARoot/EA5/EA1/EA294.htm", "5.png", "E317", "0", "", "Class0","{F8B9ABAC-78E4-4304-BB40-FF3D3AC898DD}");
+tocTab[tocTab.length] = new Array("0.5.1:7", "", "Delivery Channel", "EARoot/EA5/EA1/EA295.htm", "5.png", "E318", "0", "", "Class0","{C3159EA1-94E6-4b71-828D-E00251565347}");
+tocTab[tocTab.length] = new Array("0.5.1:8", "", "Department", "EARoot/EA5/EA1/EA296.htm", "5.png", "E311", "0", "", "Class0","{C69167F7-1C41-4be3-8053-50B0EA695040}");
+tocTab[tocTab.length] = new Array("0.5.1:9", "", "Regulated Resources", "EARoot/EA5/EA1/EA297.htm", "5.png", "E309", "0", "", "Class0","{B0572E7F-B0D0-4698-AC15-0BA7D58287D0}");
+tocTab[tocTab.length] = new Array("0.5.1:10", "", "Regulator Channel", "EARoot/EA5/EA1/EA298.htm", "5.png", "E313", "0", "", "Class0","{5F29A36D-FE93-484c-AD4F-957822F7B0FF}");
+tocTab[tocTab.length] = new Array("0.5.1:11", "", "Required competency", "EARoot/EA5/EA1/EA299.htm", "5.png", "E315", "0", "", "Class0","{505EE1A3-0A5E-42a6-86D2-C089BF96434B}");
+tocTab[tocTab.length] = new Array("0.5.1:12", "", "Resource / Asset", "EARoot/EA5/EA1/EA300.htm", "5.png", "E316", "0", "", "Class0","{1004C096-3241-4db5-8B34-23CEF6C1B48A}");
+tocTab[tocTab.length] = new Array("0.5.1:13", "", "Service", "EARoot/EA5/EA1/EA301.htm", "5.png", "E307", "0", "", "Class0","{219D54D9-2376-4354-8F91-DAF487D0B0CC}");

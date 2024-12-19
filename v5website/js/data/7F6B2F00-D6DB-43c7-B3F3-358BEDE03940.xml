@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("1:1", "", "Stakeholders and Concerns", "EARoot/EA1/EA6.htm", "189.png", "1", "0", "", "Analysis diagram0","{077F4F86-B61C-4dcb-A8F4-6AAEF1AB644B}");
+tocTab[tocTab.length] = new Array("1:2", "", "«CentralTopic» Stakeholders and Concerns for Enterprise Business Motivation Model", "EARoot/EA1/EA8.htm", "5.png", "15", "0", "", "Class0","{62F7947D-C372-4ca1-A8CA-8EC3680525B5}");
+tocTab[tocTab.length] = new Array("1.1", "1", "Stakeholders", "EARoot/EA1/EA9.htm", "4.png", "", "", "{63D9D7A9-C3EB-49f1-9F27-A72CFFD17773}", "Package");
+tocTab[tocTab.length] = new Array("1.2", "1", "Concerns", "EARoot/EA1/EA10.htm", "4.png", "", "", "{DEC7DE8E-12E7-4ea3-887D-8F5BA05CFE5B}", "Package");

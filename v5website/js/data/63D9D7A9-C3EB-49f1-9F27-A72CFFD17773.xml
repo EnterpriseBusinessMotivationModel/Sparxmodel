@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("1.1:1", "", "«MainTopic» Stakeholder: Business Unit Mgrs Ops, Finance, Mfg, Logistics)", "EARoot/EA1/EA1/EA11.htm", "5.png", "158", "0", "", "Class0","{856A10EA-3857-49d6-A5B8-3E3702168301}");
+tocTab[tocTab.length] = new Array("1.1:2", "", "«MainTopic» Stakeholder: Executive Advisors", "EARoot/EA1/EA1/EA12.htm", "5.png", "168", "0", "", "Class0","{41A6D1D8-219A-410d-AEED-C18C03C27C96}");
+tocTab[tocTab.length] = new Array("1.1:3", "", "«MainTopic» Stakeholder: Information Technology", "EARoot/EA1/EA1/EA13.htm", "5.png", "125", "0", "", "Class0","{94A10A39-FFFB-40b3-8C40-6D9362526036}");
+tocTab[tocTab.length] = new Array("1.1:4", "", "«MainTopic» Stakeholder: Business Process Practitioners", "EARoot/EA1/EA1/EA14.htm", "5.png", "10", "0", "", "Class0","{15DF4E13-9546-4b93-8E5C-537D5704C379}");
+tocTab[tocTab.length] = new Array("1.1:5", "", "«MainTopic» Stakeholder: Business Rules Practitioners", "EARoot/EA1/EA1/EA15.htm", "5.png", "11", "0", "", "Class0","{700AE647-E51F-4ef2-A228-1B09FDFE5F1B}");
+tocTab[tocTab.length] = new Array("1.1:6", "", "«MainTopic» Stakeholder: Enterprise Architects", "EARoot/EA1/EA1/EA16.htm", "5.png", "12", "0", "", "Class0","{18AAC3C1-796D-4c44-A585-0922E5B4776E}");

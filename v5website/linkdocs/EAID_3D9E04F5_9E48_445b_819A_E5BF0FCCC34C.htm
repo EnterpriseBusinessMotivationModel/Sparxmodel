@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<table border="1" cellpadding="7" cellspacing="0" style="border-collapse: collapse; border: none">
+    <tr>
+    <td valign="middle" width="286" height="10" style="border-left:solid black 0px; border-right:solid black 0px; border-top:solid black 0px; border-bottom:solid black 1px">
+    <div><font color="#0000ff" size="2"><span style="font-size:10pt">Enterprise Business Motivation Model</span></font></div>
+    </td>
+    <td align="right" valign="top" width="254" height="10" style="border-left:solid black 0px; border-right:solid black 0px; border-top:solid black 0px; border-bottom:solid black 1px">
+    <div align="right"><font color="#0000ff" size="2"><span style="font-size:10pt">Model Documentation</span></font></div>
+    </td><p>
+    </p>
+    </tr>
+</table>
+<p><p>
+<br/></p>
+</p>
+<p><p>
+<font size="4"><span style="font-size:14pt"><b>Introduction</p>
+</b></span></font></p>
+<p><p>
+This document describes the Enterprise Business Motivation Model (EBMM), a </p>
+<p>
+conceptual model of Enterprise Business Architecture.&#160; The EBMM was </p>
+<p>
+originally developed by Nick Malik, Enterprise Architect from Microsoft, with </p>
+<p>
+inputs and collaboration from dozens of architects, innovators, business </p>
+<p>
+leaders, and technology practitioners across a wide array of industries.&#160; The </p>
+<p>
+EBMM was first published in 2009 in an article in the Architecture Journal and </p>
+<p>
+was subsequently revised in the spring and summer of 2011.&#160; Subsequent </p>
+<p>
+revisions have taken place with other architects, notably including Mike Clark </p>
+<p>
+and Robert Singers.</p>
+</p>
+<p><p>
+<font size="4"><span style="font-size:14pt"><b>Purpose of the Enterprise Business Motivation Model</p>
+</b></span></font></p>
+<p><p>
+As of the first decade of the millennium, Business Architecture has become a </p>
+<p>
+profession in its own right, emerging from a wide array of business </p>
+<p>
+management practices including leadership, organizational design, and </p>
+<p>
+enterprise architecture.&#160; Early practices emerged out of consulting </p>
+<p>
+organizations, and were created in a proprietary context.&#160; Each of the </p>
+<p>
+practitioners worked for the same company, and shared both the language and </p>
+<p>
+culture of that company.</p>
+</p>
+<p><p>
+The people who worked as Business Architecture consultants were fairly fluid, </p>
+<p>
+moving from one company to another and taking their practices and </p>
+<p>
+experiences with them.&#160; As a result, while the practices of Business </p>
+<p>
+Architecture have emerged from many companies, the practices themselves </p>
+<p>
+are quite similar in scope and intended effect.</p>
+</p>
+<p><p>
+To the dismay of many practitioners of Business Architecture, each consulting </p>
+<p>
+firm uses a different language set when describing the terminology of business </p>
+<p>
+architecture.&#160; As a result, while the practices are quite similar, the profession </p>
+<p>
+itself has a difficult time maturing, as findings and conclusions developed in </p>
+<p>
+one company have to be painstakingly translated to the terminology of other </p>
+<p>
+organizations to be reused or improved upon.</p>
+</p>
+<p><p>
+The goal of the Enterprise Business Motivation Model is nothing less than to </p>
+<p>
+be the Rosetta Stone for Business Architecture.&#160; By describing the common </p>
+<p>
+concerns of Business Architecture, and then illustrating how the terminology </p>
+<p>
+can be used to address those concerns, the EBMM attempts to form the </p>
+<p>
+foundation for shared communication and collaboration across the field.&#160; </p>
+</p>
+<p><p>
+There are many potential benefits for creating and supporting a shared </p>
+<p>
+language for Business Architecture.&#160; Training can become consistent and </p>
+<p>
+aligned with other fields, practitioners can consume the artifacts produced by </p>
+<p>
+others more easily, and therefore deliver value more quickly to our </p>
+<p>
+stakeholders, and the credibility of the entire field can be improved as </p>
+<p>
+consistent leaders emerge, able to communicate with stakeholders in many </p>
+<p>
+organizations.</p>
+</p>
+<p><p>
+<font size="4"><span style="font-size:14pt"><b>Scope of the Enterprise Business Motivation Model</p>
+</b></span></font></p>
+<p><p>
+Creating a project to define the terms and terminology of Business Architecture </p>
+<p>
+is a mammoth undertaking.&#160; The field has emerged organically across a wide </p>
+<p>
+array of practitioners, each who brings their own terms and practices to the </p>
+<p>
+field.&#160; The scope of this effort must be carefully defined in order to prevent the </p>
+<p>
+effort from becoming bogged down in indirect-yet-related concerns.</p>
+</p>
+<p><p>
+The scope of this effort will focus on the interrelationship of concepts, and the </p>
+<p>
+information that should be understood when a concept is used.&#160; In effect, the </p>
+<p>
+model helps practitioners to speak consistently about the structure and shape </p>
+<p>
+of an enterprise.</p>
+</p>
+<p><p>
+Words by themselves are not interesting, and therefore not memorable.&#160; In </p>
+<p>
+order for the concepts of business architecture to be used consistently, we </p>
+<p>
+must tie those concepts to practices, methods, and artifacts that business </p>
+<p>
+architects follow and produce each and every day.&#160; Concepts cannot live </p>
+<p>
+independently of the processes and methods in which they are used, because </p>
+<p>
+these methods define the community of people who share the concepts.&#160; </p>
+</p>
+<p><p>
+Therefore, the following elements are &quot;in-scope&quot; for the EBMM documentation </p>
+<p>
+that follows:</p>
+</p>
+<ul>
+<li style="margin-left: 1mm; margin-right: 0mm; padding-left: 0mm; color= #010101;  ">
+<p>A basic understanding of key concerns of business architecture, and a </p>
+simple taxonomy of business roles that may share those concerns.&#160; This </p>
+work helps to clarify the stakeholders for the EBMM and the concerns that </p>
+they would like to see addressed through business architecture.</p>
+</p>
+</li>
+<li style="margin-left: 1mm; margin-right: 0mm; padding-left: 0mm; color= #010101;  ">A reasonable set of &quot;viewpoints&quot; to approach the concerns of the </p>
+stakeholders.&#160; A viewpoint, as described in ISO 42010, is a coherent </p>
+intersection of stakeholder concerns.&#160; By understanding the viewpoints we </p>
+seek to address, business architects can focus in on a subset of concepts </p>
+needed to address them.&#160; For each viewpoint, a subset of the entire EBMM </p>
+can be described and used.</p>
+</p>
+</li>
+<li style="margin-left: 1mm; margin-right: 0mm; padding-left: 0mm; color= #010101;  ">A rationalized list of terms for the entire Enterprise Business Motivation </p>
+Model.&#160; </p>
+</p>
+</li>
+</ul>
+<p>
+The following elements are &quot;out of scope&quot; for the EBMM documentation that </p>
+<p>
+follows:</p>
+</p>
+<ul>
+<li style="margin-left: 1mm; margin-right: 0mm; padding-left: 0mm; color= #010101;  ">
+<p>A complete description of the methods, processes, and tasks of business </p>
+architecture.&#160; While this would be useful, and is a necessary part of </p>
+creating a common base of performance for the field, it is simply too </p>
+difficult for the people involved in creating this model to gain sufficient </p>
+consensus to describe these methods in any authoritative manner.</p>
+</p>
+</li>
+<li style="margin-left: 1mm; margin-right: 0mm; padding-left: 0mm; color= #010101;  ">A complete rationalization of terms pertaining to every other field that </p>
+business architects may interact with.&#160; The terminology of Business </p>
+Architecture has emerged from individual innovators, leveraging their own </p>
+experience as well as their synthesis of the published works of innovative </p>
+management thinkers, ranging from Peter Drucker to Rummler and Brache. </p>
+These thinkers did not work together to create their world view, and the </p>
+resulting synthesis that emerges in the work of Business Architecture is </p>
+similarly &quot;free flowing&quot; with concepts and concerns that do not directly fall </p>
+within the scope of BA.&#160; We are not going to attempt to get these business </p>
+leaders, or their acolytes, to agree on terms and terminology.&#160; That would </p>
+be unnecessary to meet our goals.</p>
+</p>
+</li>
+<li style="margin-left: 1mm; margin-right: 0mm; padding-left: 0mm; color= #010101;  ">A technical data model useful for creating products.&#160; This conceptual model </p>
+is not a technical data model.&#160; Many various data models can be derived </p>
+from the full EBMM or from the viewpoint models.&#160; Those models can be </p>
+used to create software products.&#160; While this is a very valuable endeavor, it </p>
+is outside the scope of this effort.&#160; The license for the EBMM provides </p>
+anyone who would like to view it the full rights to create such software </p>
+components without royalties to any contributors to the model.&#160; This is </p>
+effectively an open source effort.&#160; However, the value of creating a model </p>
+for the sake of communication cannot be reached in a reasonable </p>
+timeframe if we allow ourselves to become consumed with the necessary </p>
+but tedious details of relational data modeling.&#160; We leave that level of </p>
+analysis to others.</p>
+</p>
+</li>
+</ul>
+<p>
+<font size="4"><span style="font-size:14pt"><b>Who is involved</p>
+</b></span></font></p>
+<p><p>
+The effort of creating the EBMM will not be limited to people directly involved in </p>
+<p>
+business architecture.&#160; However, we will seek out contributions from business </p>
+<p>
+architects and enterprise architects as a first order activity and the </p>
+<p>
+contributions of actual practitioners will be viewed more highly and considered </p>
+<p>
+more readily than the contributions of interested individuals who do not </p>
+<p>
+participate in business architecture activities as part of their vocation.</p>
+</p>
+<p><p>
+That said, there is no &quot;governing body&quot; for the EBMM at this time.&#160; There is not </p>
+<p>
+&quot;committee of peers&quot; that is actively formed and regularly meeting to discuss </p>
+<p>
+this effort.&#160; It emerges over time.&#160; As each potential contributor discovers the </p>
+<p>
+EBMM and submits BA-specific ideas for consideration, Nick Malik, the primary </p>
+<p>
+author of the EBMM, will take those considerations into account and either </p>
+<p>
+modify the model or provide a good justification for how the existing model can </p>
+<p>
+meet that expectation.&#160; As a result, there is no end date for &quot;completing&quot; the </p>
+<p>
+model.&#160; We should all expect it to gradually emerge over the span of many </p>
+<p>
+years.</p>
+</p>
+<p><p>
+If, over time, a governing body emerges that would like to collaborate to </p>
+<p>
+develop and refine the model, the above will change.&#160; </p>
+</p>
+<font size="3"><span style="font-size:11pt">&#169; Copyright 2009, 2011, 2013 A. Nicklas Malik</span></font><font face="Arial Unicode MS" size="3"><span style="font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;	</span></font><font 
+size="3"><span style="font-size:11pt">Page:1&#160;&#160;&#160; </p>
+</span></font></p>
+</body>
+</html>

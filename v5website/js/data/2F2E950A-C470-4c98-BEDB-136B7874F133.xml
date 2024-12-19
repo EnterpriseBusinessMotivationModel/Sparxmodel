@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("3.2:1", "", "Business Change Motivator", "EARoot/EA3/EA2/EA141.htm", "5.png", "140", "0", "", "Class0","{FF189CFB-6A44-4848-9474-F8C66EC9FBA0}");
+tocTab[tocTab.length] = new Array("3.2:2", "", "Business Force", "EARoot/EA3/EA2/EA142.htm", "5.png", "285", "0", "", "Class0","{93C66EB8-64CD-40b3-A5E7-1333FEC01E0E}");
+tocTab[tocTab.length] = new Array("3.2:3", "", "Technical Construct", "EARoot/EA3/EA2/EA143.htm", "5.png", "193", "0", "", "Class0","{96AFAD83-7BCC-4d2a-9DCF-2CE19D5F5127}");
+tocTab[tocTab.length] = new Array("3.2:4", "", "Business Construct or Model", "EARoot/EA3/EA2/EA144.htm", "5.png", "118", "0", "", "Class0","{DB5E3934-9557-4071-969E-FC557BD2D0B7}");
+tocTab[tocTab.length] = new Array("3.2:5", "", "Business Element", "EARoot/EA3/EA2/EA145.htm", "5.png", "119", "0", "", "Class0","{17959C37-51AB-404d-BF89-FAAAE3E6E6CD}");
+tocTab[tocTab.length] = new Array("3.2:6", "", "Business Model Element", "EARoot/EA3/EA2/EA146.htm", "5.png", "32", "0", "", "Class0","{9685F2DB-F7B1-4113-BD3B-54CF39B716CC}");

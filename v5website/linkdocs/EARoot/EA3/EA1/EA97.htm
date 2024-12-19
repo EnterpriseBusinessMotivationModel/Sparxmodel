@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Planning Viewpoint</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA98.png" usemap="#EA98" border="0" />
+
+<MAP NAME="EA98">
+<area shape="rect" coords="799,92,907,134" href="../EA3/EA167.htm" target="_self">
+<area shape="rect" coords="371,487,479,529" href="../EA3/EA217.htm" target="_self">
+<area shape="rect" coords="181,485,289,527" href="../EA3/EA225.htm" target="_self">
+<area shape="rect" coords="609,487,717,529" href="../EA3/EA173.htm" target="_self">
+<area shape="rect" coords="454,191,562,233" href="../EA3/EA183.htm" target="_self">
+<area shape="rect" coords="799,299,907,341" href="../EA3/EA160.htm" target="_self">
+<area shape="rect" coords="799,12,907,54" href="../EA3/EA152.htm" target="_self">
+<area shape="rect" coords="110,300,218,342" href="../EA3/EA215.htm" target="_self">
+<area shape="rect" coords="110,191,218,233" href="../EA3/EA226.htm" target="_self">
+<area shape="rect" coords="282,92,390,134" href="../EA3/EA163.htm" target="_self">
+<area shape="rect" coords="20,10,128,52" href="../EA3/EA213.htm" target="_self">
+<area shape="rect" coords="626,12,734,54" href="../EA3/EA165.htm" target="_self">
+<area shape="rect" coords="626,191,734,233" href="../EA3/EA159.htm" target="_self">
+<area shape="rect" coords="282,300,390,342" href="../EA3/EA181.htm" target="_self">
+<area shape="rect" coords="282,191,390,233" href="../EA3/EA175.htm" target="_self">
+<area shape="rect" coords="20,386,128,428" href="../EA3/EA235.htm" target="_self">
+<area shape="rect" coords="626,383,734,425" href="../EA3/EA170.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Planning Viewpoint : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2/11/2009 12:09:32 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">11/28/2013 11:45:12 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">nmalik</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{B0A0EC98-1CA1-4709-8CF9-DA77C61C12D4}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">The planning viewpoint illustrates the elements relevant to the needs of business units (and usually their IT groups) accountable for taking the drivers and producing a roadmap that illustrates how the business will change to meet those needs.&#160; Normally, the needs of alignment can be met using views from this viewpoint.&lt;p/&gt;</div>
+
+</div>
+ 
+</body>
+</html>

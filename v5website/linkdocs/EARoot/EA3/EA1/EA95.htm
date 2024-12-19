@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Package Oriented Implementation Viewpoint</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA96.png" usemap="#EA96" border="0" />
+
+<MAP NAME="EA96">
+<area shape="rect" coords="429,450,538,503" href="../EA3/EA179.htm" target="_self">
+<area shape="rect" coords="237,664,346,717" href="../EA3/EA167.htm" target="_self">
+<area shape="rect" coords="428,664,537,717" href="../EA3/EA152.htm" target="_self">
+<area shape="rect" coords="61,450,163,503" href="../EA3/EA241.htm" target="_self">
+<area shape="rect" coords="237,559,346,612" href="../EA3/EA240.htm" target="_self">
+<area shape="rect" coords="61,559,163,612" href="../EA3/EA172.htm" target="_self">
+<area shape="rect" coords="237,450,346,503" href="../EA3/EA237.htm" target="_self">
+<area shape="rect" coords="429,232,531,285" href="../EA3/EA173.htm" target="_self">
+<area shape="rect" coords="429,559,531,612" href="../EA3/EA196.htm" target="_self">
+<area shape="rect" coords="237,10,346,65" href="../EA3/EA163.htm" target="_self">
+<area shape="rect" coords="61,341,162,394" href="../EA3/EA222.htm" target="_self">
+<area shape="rect" coords="61,232,162,285" href="../EA3/EA209.htm" target="_self">
+<area shape="rect" coords="237,232,346,285" href="../EA3/EA170.htm" target="_self">
+<area shape="rect" coords="429,121,519,176" href="../EA3/EA181.htm" target="_self">
+<area shape="rect" coords="237,121,346,176" href="../EA3/EA159.htm" target="_self">
+<area shape="rect" coords="61,121,161,176" href="../EA3/EA235.htm" target="_self">
+<area shape="rect" coords="61,10,161,65" href="../EA3/EA213.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Package Oriented Implementation Viewpoint : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">7/27/2011 4:17:53 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">11/28/2013 11:05:47 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">nmalik</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{107B2CE6-093B-413d-BE06-6936A3BED83D}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">This viewpoint exists to illustrate how ERP implementations can benefit from the EBMM metamodel.&#160; In an ERP implementation, a capability analysis can indicated the changes to business processes, but after that, business process is the key. You work to match the needs of the process to the &quot;capabilties&quot; of the ERP system.&#160; (The EBMM term is &quot;Application Feature&quot; but for this view, we are using an alias of &quot;Application Capability&quot; to improve understanding for this stakeholder community).&lt;p/&gt;</div>
+
+</div>
+ 
+</body>
+</html>

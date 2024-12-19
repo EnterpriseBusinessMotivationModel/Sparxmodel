@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Strategy Viewpoint</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA104.png" usemap="#EA104" border="0" />
+
+<MAP NAME="EA104">
+<area shape="rect" coords="565,205,659,246" href="../EA3/EA244.htm" target="_self">
+<area shape="rect" coords="725,628,819,669" href="../EA3/EA217.htm" target="_self">
+<area shape="rect" coords="725,505,819,546" href="../EA3/EA225.htm" target="_self">
+<area shape="rect" coords="13,766,107,807" href="../EA3/EA210.htm" target="_self">
+<area shape="rect" coords="10,562,104,603" href="../EA3/EA189.htm" target="_self">
+<area shape="rect" coords="138,460,228,513" href="../EA3/EA207.htm" target="_self">
+<area shape="rect" coords="12,698,106,739" href="../EA3/EA188.htm" target="_self">
+<area shape="rect" coords="12,630,106,671" href="../EA3/EA180.htm" target="_self">
+<area shape="rect" coords="460,934,554,975" href="../EA3/EA221.htm" target="_self">
+<area shape="rect" coords="292,1039,386,1080" href="../EA3/EA246.htm" target="_self">
+<area shape="rect" coords="290,934,384,975" href="../EA3/EA212.htm" target="_self">
+<area shape="rect" coords="364,36,458,77" href="../EA3/EA228.htm" target="_self">
+<area shape="rect" coords="196,309,297,362" href="../EA3/EA186.htm" target="_self">
+<area shape="rect" coords="725,309,826,362" href="../EA3/EA170.htm" target="_self">
+<area shape="rect" coords="364,132,458,173" href="../EA3/EA204.htm" target="_self">
+<area shape="rect" coords="565,36,659,77" href="../EA3/EA169.htm" target="_self">
+<area shape="rect" coords="565,132,659,173" href="../EA3/EA174.htm" target="_self">
+<area shape="rect" coords="722,132,812,185" href="../EA3/EA199.htm" target="_self">
+<area shape="rect" coords="565,668,659,709" href="../EA3/EA215.htm" target="_self">
+<area shape="rect" coords="565,562,659,603" href="../EA3/EA226.htm" target="_self">
+<area shape="rect" coords="565,774,659,815" href="../EA3/EA235.htm" target="_self">
+<area shape="rect" coords="565,456,655,507" href="../EA3/EA163.htm" target="_self">
+<area shape="rect" coords="565,309,666,362" href="../EA3/EA159.htm" target="_self">
+<area shape="rect" coords="303,612,397,653" href="../EA3/EA200.htm" target="_self">
+<area shape="rect" coords="367,309,468,362" href="../EA3/EA165.htm" target="_self">
+<area shape="rect" coords="360,773,466,814" href="../EA3/EA213.htm" target="_self">
+<area shape="rect" coords="295,852,389,893" href="../EA3/EA161.htm" target="_self">
+<area shape="rect" coords="366,454,456,505" href="../EA3/EA177.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Strategy Viewpoint : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2/19/2009 10:55:15 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">7/28/2014 6:26:24 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">nmalik</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{9CDB8391-2C69-407f-91E4-6927BF533EC7}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Strategies are the real motivators of business behavior.&#160; This model is an indirect derivative of the OMG Business Motivation Model.&#160; This illustration puts strategy into the context of other elements within the model.&lt;br/&gt;&lt;br/&gt;A view produced in accordance with this viewpoint would illustrate the relationships between the various elements of motivation, normally to demonstrate alignment between a proposed change and all of the drivers and influencers that demand that change to occur.&#160; &lt;br/&gt;&lt;br/&gt;Note that drivers do not have a direct relationship to directives.&#160; That is because the decision to implement a driver is independent of the driver itself. In other words, a policy ignored is still a policy.&#160; The decision to implement it would require a business objective, and from that, a success metric to be defined.&lt;p/&gt;</div>
+
+</div>
+ 
+</body>
+</html>
